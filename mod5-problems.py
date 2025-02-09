@@ -39,7 +39,7 @@
 #number = int(input("Enter a number: "))
 #while number > 0:
 #    print("You entered: ", number)
-#    number = int(input("Please enter another number: "))
+#    number = int(input("Please enter another number: Enter 0 to Exit Program"))
 #    if number == 0:
 #        print("You entered 0.")
 #print("Thank you for ending this nightmare.")
