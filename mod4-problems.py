@@ -1,12 +1,12 @@
 #1. Construct a truth table for the expression: (A AND B) OR (NOT B) where A and B each can be True or False.
 #   Your truth table should be commented out (as it's not valid Python code!)
 
-#  A  and  B       OR      NOT B
+#  A      B      (A and B)    NOT B
 #-------------------------------------
 # True    True     True      False
-# True    False    True      True
+# True    False    False     True
 # False   False    False     True
-# False   True     True      False
+# False   True     False     False
 
 #2. The headlights of a car should only automatically turn on when the daylight outside is below a certain threshold.
 #   If a sensor threshold is below the number 8, print "Headlights On"; otherwise, print "Headlights Off".
